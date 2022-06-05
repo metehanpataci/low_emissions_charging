@@ -1,0 +1,172 @@
+[
+{
+"till": "2022-04-06T15:00:00.000Z",
+"from": "2022-04-06T14:00:00.000Z",
+"solarYieldWattHour": 403
+},
+{
+"till": "2022-04-06T16:00:00.000Z",
+"from": "2022-04-06T15:00:00.000Z",
+"solarYieldWattHour": 367
+},
+{
+"till": "2022-04-06T17:00:00.000Z",
+"from": "2022-04-06T16:00:00.000Z",
+"solarYieldWattHour": 248
+},
+{
+"till": "2022-04-06T18:00:00.000Z",
+"from": "2022-04-06T17:00:00.000Z",
+"solarYieldWattHour": 131
+},
+{
+"till": "2022-04-06T19:00:00.000Z",
+"from": "2022-04-06T18:00:00.000Z",
+"solarYieldWattHour": 15
+},
+{
+"till": "2022-04-06T20:00:00.000Z",
+"from": "2022-04-06T19:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+	"till": "2022-04-06T21:00:00.000Z",
+"from": "2022-04-06T20:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-06T22:00:00.000Z",
+"from": "2022-04-06T21:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-06T23:00:00.000Z",
+"from": "2022-04-06T22:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T00:00:00.000Z",
+"from": "2022-04-06T23:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T01:00:00.000Z",
+"from": "2022-04-07T00:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T02:00:00.000Z",
+"from": "2022-04-07T01:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T03:00:00.000Z",
+"from": "2022-04-07T02:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T04:00:00.000Z",
+"from": "2022-04-07T03:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T05:00:00.000Z",
+"from": "2022-04-07T04:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T06:00:00.000Z",
+"from": "2022-04-07T05:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T07:00:00.000Z",
+"from": "2022-04-07T06:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T08:00:00.000Z",
+"from": "2022-04-07T07:00:00.000Z",
+"solarYieldWattHour": 57
+},
+{
+"till": "2022-04-07T09:00:00.000Z",
+"from": "2022-04-07T08:00:00.000Z",
+"solarYieldWattHour": 142
+},
+{
+"till": "2022-04-07T10:00:00.000Z",
+"from": "2022-04-07T09:00:00.000Z",
+"solarYieldWattHour": 267
+},
+{
+"till": "2022-04-07T11:00:00.000Z",
+"from": "2022-04-07T10:00:00.000Z",
+"solarYieldWattHour": 398
+},
+{
+"till": "2022-04-07T12:00:00.000Z",
+"from": "2022-04-07T11:00:00.000Z",
+"solarYieldWattHour": 476
+},
+{
+"till": "2022-04-07T13:00:00.000Z",
+"from": "2022-04-07T12:00:00.000Z",
+"solarYieldWattHour": 590
+},
+{
+"till": "2022-04-07T14:00:00.000Z",
+"from": "2022-04-07T13:00:00.000Z",
+"solarYieldWattHour": 534
+},
+{
+"till": "2022-04-07T15:00:00.000Z",
+"from": "2022-04-07T14:00:00.000Z",
+"solarYieldWattHour": 488
+},
+{
+"till": "2022-04-07T16:00:00.000Z",
+"from": "2022-04-07T15:00:00.000Z",
+"solarYieldWattHour": 382
+},
+{
+"till": "2022-04-07T17:00:00.000Z",
+"from": "2022-04-07T16:00:00.000Z",
+"solarYieldWattHour": 288
+},
+{
+"till": "2022-04-07T18:00:00.000Z",
+"from": "2022-04-07T17:00:00.000Z",
+"solarYieldWattHour": 174
+},
+{
+"till": "2022-04-07T19:00:00.000Z",
+"from": "2022-04-07T18:00:00.000Z",
+"solarYieldWattHour": 102
+},
+{
+"till": "2022-04-07T20:00:00.000Z",
+"from": "2022-04-07T19:00:00.000Z",
+"solarYieldWattHour": 67
+},
+{
+"till": "2022-04-07T21:00:00.000Z",
+"from": "2022-04-07T20:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T22:00:00.000Z",
+"from": "2022-04-07T21:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till": "2022-04-07T23:00:00.000Z",
+"from": "2022-04-07T22:00:00.000Z",
+"solarYieldWattHour": 0
+},
+{
+"till":"2022-04-08T00:00:00.000Z",
+"from":"2022-04-07T23:00:00.000Z",
+"solarYieldWattHour": 0
+}
+]
