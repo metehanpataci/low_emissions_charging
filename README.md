@@ -24,7 +24,7 @@ While doing all of the above please make sure to
 - Zip the code repository and send it to Lightyear
 - Tell us how long it took and whether Rust is new to you
 - Don’t make the solution publicly available
-- 
+
 If you love this assignment you can earn some extra bonus points by doing one or
 both of the following
 
