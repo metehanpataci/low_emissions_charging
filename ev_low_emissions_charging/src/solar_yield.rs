@@ -1,3 +1,11 @@
+/*
+ * @Author: metehanpataci metehanpataci@users.noreply.github.com
+ * @Date: 2022-06-05 22:25:43
+ * @LastEditors: metehanpataci metehanpataci@users.noreply.github.com
+ * @LastEditTime: 2022-06-07 01:12:08
+ * @FilePath: \ev_low_emissions_charging\src\solar_yield.rs
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 use std::fs::File;
 use std::io::Read;
 use std::env;
@@ -10,16 +18,16 @@ use crate::{DataLoader,DEBUG_ENABLE};
 #[derive(Serialize, Deserialize, Debug)]
 pub struct SolarYield
 {
-    till: DateTime<Utc>,
+    pub till: DateTime<Utc>,
 
-    from: DateTime<Utc>,
+    pub from: DateTime<Utc>,
 
-    solarYieldWattHour:u16,
+    pub solarYieldWattHour:u16,
 }
 #[derive(Serialize, Deserialize, Debug)]
 pub struct SolarYields
 {
-    yields : Vec<SolarYield>,
+    pub yields : Vec<SolarYield>,
 }
 
 impl SolarYields
@@ -44,9 +52,5 @@ impl DataLoader for SolarYields
         }
       
         self.yields = serde_json::from_str(&buff).unwrap();
-
-        println!("Solar yields data was loaded..");
-        //println!("Name: {}", foo.name);
-
     }
 }

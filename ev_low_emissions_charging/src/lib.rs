@@ -1,3 +1,11 @@
+/*
+ * @Author: metehanpataci metehanpataci@users.noreply.github.com
+ * @Date: 2022-06-05 16:35:31
+ * @LastEditors: metehanpataci metehanpataci@users.noreply.github.com
+ * @LastEditTime: 2022-06-07 02:16:18
+ * @FilePath: \ev_low_emissions_charging\src\lib.rs
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 
 use std::fs::File;
 use std::io::Read;
@@ -35,7 +43,9 @@ pub const VEHICLE_BATTERY_AMPER:u16 = 16;
 
 pub const VEHICLE_BATTERY_CHARGING_EFFICIENCY:f32 = 0.9;
 
+pub const ESTIMATED_TRAVEL_DURATION_IN_MINUTES:i32 = 90;
 
+pub const IS_SOLAR_CHARGE_ESTIMATION_ENABLED : bool = false;
 
 use reqwest; // 0.9.10
 

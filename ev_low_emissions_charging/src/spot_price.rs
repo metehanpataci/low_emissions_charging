@@ -1,4 +1,3 @@
-
 use std::fs::File;
 use std::io::Read;
 use std::env;
@@ -65,30 +64,17 @@ impl SpotPrices
         }
     }
 
-/*
-    pub fn load(&mut self,file_name:String)
-    {
-
-        let mut file = File::open(file_name.to_string()).unwrap();
-        let mut buff = String::new();
-        file.read_to_string(&mut buff).unwrap();
-
-        println!("{}",buff);
-      
-        self.prices = serde_json::from_str(&buff).unwrap();
-
-        println!("Buffer deserialized to struct");
-        //println!("Name: {}", foo.name);
-
-    }
-*/
   
 }
 
 
 impl DataLoader for SpotPrices
 {
-
+    /*
+    * Definition:
+    * Parameters:
+    * Return:
+    */
     fn load(&mut self,file_name:String){
 
         let mut file = File::open(file_name.to_string()).unwrap();
@@ -101,13 +87,14 @@ impl DataLoader for SpotPrices
       
         self.prices = serde_json::from_str(&buff).unwrap();
 
-        println!("Spot prices data was loaded..");
-        //println!("Name: {}", foo.name);
-
     }
 }
 
-
+/*
+* Definition:
+* Parameters:
+* Return:
+*/
 pub fn get_current_working_dir() -> String {
     let res = env::current_dir();
     match res {
