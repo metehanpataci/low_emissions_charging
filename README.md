@@ -89,4 +89,6 @@ Calculates best charging time without taking account of solar power during trave
 
 Calculates best charging time with taking account of solar power during travel.
 
+## EXECUTION
 
+**main.rs** is starting point of program. Run main.rs or executable file under Debug folder.
