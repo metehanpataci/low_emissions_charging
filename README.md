@@ -1,5 +1,5 @@
-# low_emissions_charging
-A function that returns the best time to start charging of a solar vehicle.
+# EV LOW EMISSION CHARGING
+
 ## PURPOSE
 Write a function in Rust to return the best time to start charging. To do so first calculate the amount of time needed to charge up to the desired level taking the following into account:
 - Current state of charge 32%
@@ -39,7 +39,7 @@ The prgram calculates best time for grid charging in minutes precision. Start ti
 
 If user makes **IS_SOLAR_CHARGE_ESTIMATION_ENABLED** variable **true** at **lib.rs** file program calculates charging of car during travel according to **vehicle_solar_yield_prediction.json** file. Solar power contribution is extracted from **VEHICLE_BATTERY_DESIRED_CHARGE** (which is at lib.rs file) during program run time then grid charging was calculated.
 
-### Data
+## Data
 
 All data was stored as json file under the same directory (src) of code files.
 - spot_price_prediction.json
@@ -47,7 +47,7 @@ This file stores spot prices.
 - vehicle_solar_yield_prediction.json
 This file stores solar yield prediction data.
 
-### Configuration
+## Configuration
 
 Most of the configuration parameters are at **lib.rs** file.
 
@@ -79,3 +79,14 @@ pub const ESTIMATED_TRAVEL_DURATION_IN_MINUTES:i32 = 90;
 
 pub const IS_SOLAR_CHARGE_ESTIMATION_ENABLED : bool = false;
 ```
+## FUNCTIONS
+
+**get_best_to_time_start_for_grid_charging**
+
+Calculates best charging time without taking account of solar power during travel.
+
+**get_best_time_for_charging_include_solar_power**
+
+Calculates best charging time with taking account of solar power during travel.
+
+
