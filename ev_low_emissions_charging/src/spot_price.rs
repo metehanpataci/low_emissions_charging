@@ -4,26 +4,28 @@ use std::io::Read;
 use std::env;
 use serde::{Serialize, Deserialize};
 use chrono::{DateTime, Duration, Utc};
+use std::cmp::Ordering;
 
 use crate::{DataLoader};
 
 use crate::{DEBUG_ENABLE};
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)] //Eq
 pub struct SpotPrice
 {
-    till: DateTime<Utc>,
+    pub till: DateTime<Utc>,
 
-    from: DateTime<Utc>,
+    pub from: DateTime<Utc>,
 
-    marketPrice:f32,
+    pub marketPrice: f32,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct SpotPrices
 {
-    prices : Vec<SpotPrice>,
+    pub prices : Vec<SpotPrice>,
 }
+
 
 impl SpotPrice{
     pub fn new() -> Self
@@ -35,8 +37,25 @@ impl SpotPrice{
         }
     }
 }
+/*
+impl Ord for SpotPrice {
+    fn cmp(&self, other: &Self) -> Ordering {
+        self.from.cmp(&other.from)
+    }
+}
 
+impl PartialOrd for SpotPrice {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
 
+impl PartialEq for SpotPrice {
+    fn eq(&self, other: &Self) -> bool {
+        self.from == other.from
+    }
+}
+*/
 impl SpotPrices
 {
 
