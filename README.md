@@ -1,36 +1,7 @@
 # EV LOW EMISSION CHARGING
 
 ## PURPOSE
-Write a function in Rust to return the best time to start charging. To do so first calculate the amount of time needed to charge up to the desired level taking the following into account:
-- Current state of charge 32%
-- Desired state of charge 80%
-- Battery capacity of 60kWh
-- 3-phase charger, 16A on each phase at 230V
-- Charging efficiency of 90% (meaning that each kWh from the grid delivers 0.9kWh in the battery)
-- Preferred to charge in a single time block without interruptions for simplicity 
-Once we know home much time is needed we need to find the optimal continuous time block to charge taking into account predictions for the electricity spot prices. You can find the predictions in the appendix.
-
-Return the best starting time for charging taking the following into account
-
-- She wants to leave at 13:00 on 7 April
-- The location is Zurich, Switzerland
-- Current date is 6th of April
-- The spot prices are shown in the appendix
-
-While doing all of the above please make sure to
-- Write code in Rust (rust-lang.org)
-- Write tests
-- Add a README.md file with explanation of what the repository does
-- Zip the code repository and send it to Lightyear
-- Tell us how long it took and whether Rust is new to you
-- Don’t make the solution publicly available
-
-If you love this assignment you can earn some extra bonus points by doing one or
-both of the following
-
-- Wrapping the function in a REST endpoint
-- Taking the solar yield predictions of the vehicle itself into account, they can be
-found in the appendix
+A function in Rust to return the best time to start charging. 
 
 ## Code
 All the configarions are in the lib.rs file. Configurative things defines as const variabled.
