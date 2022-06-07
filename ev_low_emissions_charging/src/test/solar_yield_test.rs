@@ -2,7 +2,7 @@
  * @Author: metehanpataci metehanpataci@users.noreply.github.com
  * @Date: 2022-06-06 12:45:46
  * @LastEditors: metehanpataci metehanpataci@users.noreply.github.com
- * @LastEditTime: 2022-06-07 02:43:19
+ * @LastEditTime: 2022-06-07 12:31:59
  * @FilePath: \ev_low_emissions_charging\src\test\solar_yield_test.rs
  */
 
@@ -22,4 +22,6 @@ fn read_solar_gird_data_test()
 
     assert_eq!( sp.load(SPOT_PRICE_PRED_PATH),true);
 }
+
+
 
